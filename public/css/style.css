@@ -3,9 +3,10 @@
     flex-direction: row;
     background-color: purple;
     justify-content: space-between;
+}
+.logo{
+    display: flex; 
     
-    
-
 }
 
 #champs_newsletter {
@@ -14,11 +15,60 @@
     color: white;
     opacity: 60%;
     font-size: smaller;
-
 }
 button {
     background-color: #0aff54;
     color: white;
- 
+}
+
+
+
+
+ nav   {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    border: 2px green solid;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    /* //align-content: space-around; */
+   } 
+
+   .logo1 img{
+    display: flex;
+    text-decoration: none;
+    border: 2px red solid;
+    width: 100px;
+}
+
+   .menu{
+       display: flex;
+     
+       align-items: center;
+       
+   }
+nav ul {
+    border: 2px yellow solid;
+    display: flex;
+    
+}
+nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    
+    
+}
+nav ul li a {
+    text-decoration: none;
+}
+nav .coworking {
+    text-decoration: none;
+    border: 2px pink solid;
+    list-style-type: none;
+    display: flex;
+}
+nav .coworking a{
+    text-decoration: none;
     
 }
